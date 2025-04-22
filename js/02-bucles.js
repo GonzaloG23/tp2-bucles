@@ -1,3 +1,4 @@
+do{
 const nota = prompt("Ingrese una nota de 0 a 10");
 if (nota <= 2) {
     alert("Muy deficiente")
@@ -23,4 +24,6 @@ else if (nota>10){
 else if (nota !=Number)
 {
     alert("Introduce un numero valido")
-}
+}}
+
+while (confirm("Desea consultar nuevamente?"))

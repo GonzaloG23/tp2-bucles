@@ -1,3 +1,4 @@
+
 //Haz un script que escriba una pirámide inversa de los números del 1 al número que indique el usuario (no mayor de 50)  de la siguiente forma : (suponiendo que indica 30).
 //303030303030303030303030303030303030303030303030303030303030
 //2929292929292929292929292929292929292929292929292929292929
@@ -7,11 +8,10 @@
 //1
 
 for(let i=30;i>0;i--){
-for(let caracteres=30; caracteres>i; caracteres++){
-    document.writeln(i)
-}
-document.writeln(`<br>`)
-}
+    for(let caracteres=0; caracteres<i; caracteres++){ 
+document.writeln(i)
+    }
+    document.writeln("<br>")}
 
 
 
